@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "project": {
+    "name": "prospects-research",
+    "productType": "Private prospecting dashboard",
+    "stack": ["Next.js", "React", "TypeScript", "CSS"]
+  },
+  "sources": {
+    "tokens": [],
+    "components": [],
+    "assets": [],
+    "instructions": []
+  },
+  "design": {
+    "colorMode": "light",
+    "colors": { "accent": "#d52b32", "ink": "#181817", "paper": "#fbfaf7", "surface": "#ffffff" },
+    "typography": { "ui": "Inter/Helvetica Neue", "editorialAccent": "Georgia" },
+    "spacing": { "density": "compact-comfortable" },
+    "radius": { "small": "7px", "medium": "11px", "large": "18px" },
+    "shadows": { "usage": "subtle, functional only" },
+    "motion": {},
+    "density": "compact"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": ["Responsive data list", "Visible focus states", "Swiss red used sparingly", "Real loading, empty and error states"],
+    "avoid": ["Decorative gradients", "Glass effects", "Excessive cards", "Oversized dashboard headings"]
+  },
+  "decisions": [
+    "Use a quiet Swiss editorial direction: signal red, warm paper, graphite type and restrained borders.",
+    "Use a fixed filter rail and compact prospect table on desktop, collapsing to cards and bottom navigation on mobile.",
+    "Keep the login split-screen editorial on desktop and single-column on mobile."
+  ],
+  "evidence": [],
+  "generatedAt": "2026-08-06T09:46:39.938Z"
+}
